@@ -11,4 +11,5 @@ project
 ├── CMakeList.txt                  		
 ├── sdkconfig                       #espressif info
 ```
-the project is not finished yet.
+the project is finished
+Now you can use esp32s3-cam to monitor the video stream,and then capture a frame,by sending the photo to the model,you can obtain the predicted result of your gesture.
