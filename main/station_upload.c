@@ -9,7 +9,7 @@
 #include <esp_netif.h>
 #include <esp_camera.h>  // 包含摄像头的头文件
 
-// 摄像头配置
+// 摄像头配置 esp32s3摄像头以后都这样配就行
 static camera_config_t camera_config = {
     .pin_pwdn = -1,
     .pin_reset = -1,
